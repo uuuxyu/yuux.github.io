@@ -1,0 +1,208 @@
+<style>
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      /* 메뉴바 링크 제거 */
+
+      a { text-decoration: none; color: black; }
+      a:visited { text-decoration: none; }
+      a:hover { text-decoration: none; }
+      a:focus { text-decoration: none; }
+      a:hover, a:active { text-decoration: none; }
+
+      .nav {
+        background-color: #ffffff;
+        list-style-type: none;
+        text-align: right;
+        margin: 0;
+        padding: 40;
+      }
+
+      .nav li {
+        display: inline-block;
+        font-size: 18px;
+        padding: 20px;
+      }
+
+      .nav:hover {
+        color: red;
+      }
+      /* 메뉴바 설정 */
+
+      body {
+        background-color: #fffff;
+        font-family: 'NotoSans';
+        font-color: #000000;
+      }
+
+      .main {
+        float: left;
+        text-align: center;
+        width:100%;
+        padding:0 0px;
+        margin: 70px 0 0 0;
+      }
+
+      .mc {
+         width: 100%;
+         text-align: center;
+       }
+
+      .content {
+        /*float:left; */
+        padding:0px;
+        margin:130px;
+        text-align:center;
+        display: inline-block;
+        font-family: 'Notosans';
+      }
+
+      /* .contentTitle {
+        font-size: 100px;
+        line-height: 160px;
+        letter-spacing: 6px;
+        font-family: 'Anton';
+      } */
+
+      table, tr, th, td {
+        border: solid 0.2px white;
+        border-collapse: collapse;
+        padding: 12px;
+        text-align: left;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 6px;
+        right: 50px;
+        height: 47px;
+        width: 100%
+        color: white;
+        background-color: #fffff;
+        font-size: 11px;
+      }
+
+      @media only screen and (max-width:620px) {
+        /* For mobile phones: */
+        .menu, .main, .right {
+          width:100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!--메뉴바-->
+
+    <div style="padding:0px;
+      margin : 0 0 0 0;
+      text-align:center;
+      overflow:auto;
+      text-color: #203f00;">
+    </div>
+
+    <ul class="nav">
+
+      <li><a href="index.html"><b>Home</b></a></li>
+
+      <li><a href="index1.html"><b>About</b></a></li>
+
+      <li><a href="index2.html"><b>MBTI-E</b></a></li>
+
+      <li><a href="index3.html"><b>MBTI-I</b></a></li>
+
+      <li><a href="index4.html"><b>TEST</b></a></li>
+
+    </ul>
+
+
+      <!--컨텐츠 시작-->
+      <div class="mc">
+
+      <div class="content">
+        <h2>간단한 MBTI TEST</h2>
+        <br><br>
+
+        <div style='width:100%; float:left; font-size: 12px;'>
+          <h2>본 테스트는 E유형과 I유형에 중점을 두고 질문하며, 테스트 결과가 항상 같습니다.</h2>
+          <table>
+            <br><br>
+            <form>
+              <tr>
+                <td>나는 말을 많이 하다 보니 실수 할 때가 종종 있다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>나는 모르는 사람을 만나는 일은 피곤하다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>어떤 일에 대해 말하는 도중에 생각하고 대화도중 결심할 때가 있다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>나는 혼자 혹은 다른 사람 한 명 정도와 일 하는 것이 편하다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>나는 생각이나 견해를 사람들에게 표현하기를 좋아한다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>회합이나 모임이 끝나고 나면 나의 생각을 이야기하지 않은 것을 후회할 때가 있다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>오랜 시간 혼자 일하다 보면 외롭고 지루하고 힘들다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>나는 시끄러운 환경에서 일을 제대로 할 수 없다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>말이 빠르고 목소리가 큰 편에 속한다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>나는 집에 있는 것이 편하다</td>
+                <td><input type="checkbox">&nbsp;YES
+                <input type="checkbox">&nbsp;NO
+              </tr>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                <a href='index5.html'><b style="color:#8e8e8e">▶ 결과보기</b></a></td>
+              </tr>
+            </form>
+        </div>
+        </div>
+      </div>
+
+      <!--컨텐츠  끝-->
+
+
+      <!--Footer -->
+
+      <div class="footer" style="text-align: right; color: black;">
+        E-MAIL : 22161103@kaywon.ac.kr
+        TEL : 010 - 2627 - 8743 <br>
+        copyright © leeyurim All rights reserved
+      </div>
+
+
+  </body>
+</html>
